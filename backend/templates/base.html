@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> {% block title %} Trang chủ {% endblock %}<title>
+</head>     
+
+<body>
+    <header>
+        <h1>Welcome to My Website</h1> 
+        <!--Sau Này sẽ bổ sung thanh menu ở đây ?--> 
+    </header>
+    
+    <main>
+        {% block content %}
+        <!-- Nội dung chính sẽ được chèn vào đây -->
+        {% endblock %}
+    <footer>
+        <p>© 2025 Trường đại học Công Nghệ Miền Đông</p>
+    </footer>
+</body>
+</html>
